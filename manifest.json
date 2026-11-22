@@ -257,7 +257,9 @@
           "source": "lsp",
           "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/openssl-probe-0.2.2/src/lib.rs"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/3cf1877ee86814168255db6d73fbefc127211c1c/chunk-001.nq.gz",
+      "dep": "dep/3cf1877ee86814168255db6d73fbefc127211c1c.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
