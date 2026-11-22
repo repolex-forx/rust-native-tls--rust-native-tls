@@ -1,0 +1,11 @@
+{
+  "org": "rust-native-tls",
+  "repo": "rust-native-tls",
+  "versions": [
+    {
+      "commit": "3cf1877ee86814168255db6d73fbefc127211c1c",
+      "tag": "v0.2.18",
+      "parsed_at": "2026-11-22T16:13:07.601694+00:00"
+    }
+  ]
+}
