@@ -1,0 +1,37 @@
+{
+  "manifest_version": "1.0",
+  "org": "rust-native-tls",
+  "repo": "rust-native-tls",
+  "versions": [
+    {
+      "commit": "3cf1877ee86814168255db6d73fbefc127211c1c",
+      "parsed_at": "2026-11-22T15:59:47.694824+00:00",
+      "tag": "v0.2.18",
+      "filetree": "filetree/3cf1877ee86814168255db6d73fbefc127211c1c.nq.gz",
+      "blobs": [
+        "blob/bc3d32255aa038a570482e1d70979d888ff00f47.nq.gz",
+        "blob/a112c29826a486375a97b849863f519e2fb37acc.nq.gz",
+        "blob/b2bbae1c78e75dbc428813a0e7f2a45b7d9471e1.nq.gz",
+        "blob/4e3ddddc3005a0fd621794bb7061e8b3f8a9a1e1.nq.gz",
+        "blob/981a42dc9d761c6deda8e0cd671109497aeeb268.nq.gz",
+        "blob/8595008d3a8acb500fb3ba3a0a1d01b739183153.nq.gz",
+        "blob/483be948cc57ebadf04b92e702ad0d3845be28c8.nq.gz",
+        "blob/8f71f43fee3f78649d238238cbde51e6d7055c82.nq.gz",
+        "blob/74f08c6647857d9bb1ce2c08cfbc722841e0986c.nq.gz",
+        "blob/1a97adc0f4430344b3e934104d46745451bd7041.nq.gz",
+        "blob/1332f8eb5d96f1551077bd11558a8805cbb8f9f1.nq.gz",
+        "blob/abc6f14c43101006e1749bbb90b97549ba58e2ac.nq.gz",
+        "blob/bcf45424530da5080e8d7db449ac53d895b0cdae.nq.gz",
+        "blob/dc1c9209572708387e9803ca4fe8c325129f1006.nq.gz",
+        "blob/58672e2642c6de7f904c8a544b2657f2963921a6.nq.gz",
+        "blob/23d7b1ad10542af695a5571b3a3dbe51c96147fd.nq.gz",
+        "blob/2deeb18eccc3d1bb44c0079875e59dd6430e3405.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz",
+  "issue": "issue/issue.nq.gz",
+  "pr": "pr/pr.nq.gz"
+}
