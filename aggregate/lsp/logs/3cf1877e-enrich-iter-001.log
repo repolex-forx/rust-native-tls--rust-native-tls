@@ -1,0 +1,20 @@
+[2026-11-22T16:05:31Z] === ENRICH ITERATION 1 START | repo=rust-native-tls/rust-native-tls sha=3cf1877e ===
+[2026-11-22T16:05:31Z] [iter=1] PHASE START: enrich repo=rust-native-tls/rust-native-tls sha=3cf1877e runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/3cf1877e-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/3cf1877ee86814168255db6d73fbefc127211c1c.nq.gz
+[2026-11-22T16:05:33Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-22T16:05:34Z] [iter=1] AST store loaded triples=136650 load_secs=1 mem_mb=278 MB
+[2026-11-22T16:05:34Z] [iter=1] Step 2: Finding LSP targets mem_mb=278 MB
+[2026-11-22T16:05:34Z] [iter=1] LSP targets found call_sites=1299 imports=34 extends=0 implements=60 secs=0
+[2026-11-22T16:05:35Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=278 MB
+[2026-11-22T16:05:35Z] [iter=1] Position index built positions=9008 nodes_with_types=11201 secs=1 mem_mb=278 MB
+[2026-11-22T16:05:35Z] [iter=1] Step 3: Starting LSP resolution mem_mb=278 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T16:05:35Z] [iter=1] Resolving target type target_type=call_site count=1299
+[2026-11-22T16:06:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.6 files_done=1 resolved=389 errors=0 current=src/imp/security_framework.rs
+[2026-11-22T16:06:13Z] [iter=1] Target type resolved target_type=call_site resolved=640 errors=0 secs=37 mem_mb=278 MB
+[2026-11-22T16:06:13Z] [iter=1] Resolving target type target_type=import_statement count=34
+[2026-11-22T16:06:26Z] [iter=1] Target type resolved target_type=import_statement resolved=24 errors=0 secs=13 mem_mb=278 MB
+[2026-11-22T16:06:26Z] [iter=1] Resolving target type target_type=implements_clause count=60
+[2026-11-22T16:06:36Z] [iter=1] HEARTBEAT target_type=implements_clause elapsed_min=1.1 files_done=2 resolved=18 errors=0 current=src/imp/openssl.rs
+[2026-11-22T16:06:37Z] [iter=1] Target type resolved target_type=implements_clause resolved=32 errors=0 secs=11 mem_mb=278 MB
+[2026-11-22T16:07:47Z] [iter=1] Step 5: Writing final enrichment file triples=9229
+[2026-11-22T16:07:47Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/3cf1877ee86814168255db6d73fbefc127211c1c.nq.gz size_kb=157
+[2026-11-22T16:07:47Z] [iter=1] PHASE END: enrich elapsed_s=136 elapsed_min=2.3 total_triples=9229
